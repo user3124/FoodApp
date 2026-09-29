@@ -18,25 +18,61 @@
 
 ### Основные экраны
 
-| Профиль | ИМТ | Дневник | Загрузка ИИ |
-|---|---|---|---|
-| ![](docs/screenshots/profile.png) | ![](docs/screenshots/profile_bmi.png) | ![](docs/screenshots/diary.png) | ![](docs/screenshots/ai_loading.png) |
+**Профиль (пустой)**
 
-| Раскрытая карточка | Шторка с шагомером | Flavors и Build Variants |
-|---|---|---|
-| ![](docs/screenshots/meal_expanded.png) | ![](docs/screenshots/notification.png) | ![](docs/screenshots/build_variants.png) |
+![Профиль](docs/screenshots/profile.png)
+
+**Профиль с расчётом ИМТ**
+
+![ИМТ](docs/screenshots/profile_bmi.png)
+
+**Дневник питания**
+
+![Дневник](docs/screenshots/diary.png)
+
+**Загрузка ИИ-строки (`CircularProgressIndicator`)**
+
+![Загрузка ИИ](docs/screenshots/ai_loading.png)
+
+**Раскрытая карточка приёма пищи (`animateContentSize`)**
+
+![Раскрытая карточка](docs/screenshots/meal_expanded.png)
+
+**Постоянное уведомление шагомера**
+
+![Шторка с шагомером](docs/screenshots/notification.png)
+
+**Варианты сборки (flavors)**
+
+![Build Variants](docs/screenshots/build_variants.png)
 
 ### Дополнительно
 
-| Валидация профиля | Ошибка распознавания | Лимит free-версии | Напоминание |
-|---|---|---|---|
-| ![](docs/screenshots/profile_validation.png) | ![](docs/screenshots/snackbar_error.png) | ![](docs/screenshots/limit_reached.png) | ![](docs/screenshots/reminder.png) |
+**Валидация полей профиля**
+
+![Валидация профиля](docs/screenshots/profile_validation.png)
+
+**Ошибка распознавания еды**
+
+![Ошибка распознавания](docs/screenshots/snackbar_error.png)
+
+**Лимит free-версии**
+
+![Лимит free-версии](docs/screenshots/limit_reached.png)
+
+**Напоминание Worker'а**
+
+![Напоминание](docs/screenshots/reminder.png)
 
 ### Структура проекта и сборка
 
-| Дерево проекта | ProGuard / R8 |
-|---|---|
-| ![](docs/screenshots/project_tree.png) | ![](docs/screenshots/proguard.png) |
+**Дерево проекта (три модуля)**
+
+![Дерево проекта](docs/screenshots/project_tree.png)
+
+**ProGuard / R8**
+
+![ProGuard](docs/screenshots/proguard.png)
 
 ## Экраны
 
