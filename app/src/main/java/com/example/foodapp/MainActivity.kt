@@ -15,6 +15,9 @@ import com.example.foodapp.databinding.ActivityMainBinding
 import com.example.foodapp.steps.StepCounterService
 import com.example.foodapp.ui.profile.ProfileFragment
 import dagger.hilt.android.AndroidEntryPoint
+import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.WorkManager
+import com.example.foodapp.work.NutritionReminderWorker
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -48,6 +51,12 @@ class MainActivity : AppCompatActivity() {
                 replace(R.id.fragment_container, ProfileFragment())
             }
             startStepTracking()
+
+            // ВРЕМЕННО для проверки; удалить после теста
+            if (BuildConfig.DEBUG) {
+                WorkManager.getInstance(this)
+                    .enqueue(OneTimeWorkRequestBuilder<NutritionReminderWorker>().build())
+            }
         }
     }
 
