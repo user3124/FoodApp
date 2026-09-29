@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FoodApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/food_orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/food_orange_light</item>
+        <item name="colorOnPrimaryContainer">@color/food_text</item>
+        <item name="colorSecondary">@color/food_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/food_background</item>
+        <item name="colorSurface">@color/food_background</item>
+        <item name="colorOnSurface">@color/food_text</item>
+        <item name="colorSurfaceVariant">@color/food_card</item>
+        <item name="colorOnSurfaceVariant">@color/food_text_secondary</item>
+    </style>
+</resources>

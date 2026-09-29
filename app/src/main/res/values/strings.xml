@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+
+    <string name="channel_steps_name">Шагомер</string>
+    <string name="channel_steps_description">Постоянное уведомление со счётчиком шагов</string>
+    <string name="channel_reminders_name">Напоминания о питании</string>
+    <string name="channel_reminders_description">Напоминание, если сегодня нет записей о еде</string>
+
+    <string name="steps_notification_title">FoodApp: шагомер</string>
+    <string name="steps_notification_text">Шагов сегодня: %1$d</string>
+    <string name="steps_sensor_unavailable">Датчик шагов недоступен на этом устройстве</string>
+
+    <string name="reminder_title">Пора записать еду</string>
+    <string name="reminder_text">Сегодня в дневнике ещё нет ни одной записи. Добавьте приём пищи!</string>
+
+    <!-- Профиль -->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_subtitle">Введите рост и вес, чтобы рассчитать индекс массы тела</string>
+    <string name="hint_height">Рост</string>
+    <string name="hint_weight">Вес</string>
+    <string name="suffix_cm">см</string>
+    <string name="suffix_kg">кг</string>
+    <string name="btn_save_profile">Сохранить</string>
+    <string name="btn_open_diary">Открыть дневник питания</string>
+    <string name="error_height">Введите рост от 100 до 250 см</string>
+    <string name="error_weight">Введите вес от 30 до 300 кг</string>
+    <string name="profile_saved">Профиль сохранён</string>
+
+    <!-- ИМТ -->
+    <string name="bmi_title">Индекс массы тела</string>
+    <string name="bmi_empty">Введите рост и вес, чтобы увидеть ИМТ</string>
+    <string name="bmi_underweight">Недостаточная масса тела</string>
+    <string name="bmi_normal">Норма</string>
+    <string name="bmi_overweight">Избыточная масса тела</string>
+    <string name="bmi_obese">Ожирение</string>
+
+    <!-- Дневник -->
+    <string name="diary_title">Дневник питания</string>
+    <string name="diary_back">Назад</string>
+    <string name="diary_today">Сегодня</string>
+    <string name="diary_calories_format">%1$d / %2$d ккал</string>
+    <string name="diary_steps_format">Шагов сегодня: %1$d</string>
+    <string name="diary_empty">Сегодня записей пока нет.\nНапишите, что вы съели, например: «гречка 150 г»</string>
+    <string name="diary_input_hint">Например: сыр 100 грамм</string>
+    <string name="diary_add">Добавить</string>
+    <string name="diary_ai_loading">ИИ анализирует запись…</string>
+
+    <string name="macro_protein">Белки</string>
+    <string name="macro_fat">Жиры</string>
+    <string name="macro_carbs">Углеводы</string>
+    <string name="macro_value_format">%1$.1f г</string>
+    <string name="macros_format">Б %1$.1f · Ж %2$.1f · У %3$.1f</string>
+    <string name="item_details_format">%1$d ккал · Б %2$.1f · Ж %3$.1f · У %4$.1f</string>
+    <string name="kcal_format">%1$d ккал</string>
+    <string name="grams_format">%1$d г</string>
+
+    <string name="meal_breakfast">Завтрак</string>
+    <string name="meal_lunch">Обед</string>
+    <string name="meal_dinner">Ужин</string>
+    <string name="meal_snack">Перекус</string>
+    <string name="meal_show_details">Показать состав</string>
+
+    <!-- Сообщения -->
+    <string name="msg_added">Приём пищи добавлен</string>
+    <string name="msg_empty_input">Напишите, что вы съели</string>
+    <string name="msg_not_recognized">Не удалось распознать продукты. Попробуйте: «гречка 150 г»</string>
+    <string name="msg_limit_reached">Достигнут дневной лимит бесплатной версии</string>
+</resources>
